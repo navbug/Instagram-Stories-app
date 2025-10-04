@@ -21,7 +21,7 @@ const StoriesList = () => {
             <button
               key={user.id}
               onClick={() => handleStoryClick(index)}
-              className="flex-shrink-0 focus:outline-none"
+              className="flex-shrink-0 focus:outline-none cursor-pointer hover:scale-95 hover:transition-all duration-200"
             >
               <div className="relative">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-0.5">

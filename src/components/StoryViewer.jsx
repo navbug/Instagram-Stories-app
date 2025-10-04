@@ -39,6 +39,7 @@ const StoryViewer = () => {
   };
   
   const handleTouchStart = (e) => {
+    console.log(e);
     touchStartX.current = e.touches[0].clientX;
     dispatch({ type: ACTION_TYPES.SET_PAUSED, payload: true });
   };
